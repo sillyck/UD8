@@ -10,7 +10,7 @@ public class Electrodomestico {
 		this.color="blanco";
 		this.conElec='F';
 		this.precioBase=100;
-		this.peso=5;
+		this.peso=0;
 	}
 
 	public Electrodomestico(double precioBase, double peso) {
