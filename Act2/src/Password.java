@@ -20,15 +20,12 @@ public class Password {
 		}
 
 		public static String generarContraseña(int l) {
-	    	int contra;
-	    	String contraS = "", rFinal="";
-	    	
-	    	for (int i = 0;i<l;i++) {
-	    		contra = (int) (Math.random()* (l - 1));
-	    		contraS = String.valueOf(contra);
-	    		rFinal = rFinal + contraS;
-	    	}
-	    	
-	    	return rFinal; 
+			String resultado="", letras = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+			
+			for(int i=0;i<l;i++) {
+				resultado += letras.charAt((int) Math.floor(Math.random() * letras.length()));
+			}
+			
+			return resultado;
 	    }
 }
