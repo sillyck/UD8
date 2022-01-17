@@ -9,7 +9,7 @@ public class PersonaApp {
 	
 		System.out.println(Constructor1.toString());
 		System.out.println(Constructor2.toString());
-		System.out.println(Constructor3.toString
+		System.out.println(Constructor3.toString());
 		
 	}
 
