@@ -26,6 +26,12 @@ public class Electrodomestico {
 		this.conElec = conElec;
 		this.peso = peso;
 	}
+
+	@Override
+	public String toString() {
+		return "precioBase=" + precioBase + ", color=" + color + ", conElec=" + conElec + ", peso="
+				+ peso;
+	}
 	
 	
 }
